@@ -1,4 +1,5 @@
 import { ArrowRight, Sparkles } from "lucide-react";
+import bannerStack from "../../assets/banner-stack.png";
 
 const Hero = () => {
     return (
@@ -51,7 +52,7 @@ const Hero = () => {
                     <div className="absolute h-72 w-72 rounded-full bg-pink-200/40 blur-3xl"></div>
 
                     <img
-                        src="/hero-image.png"
+                        src={bannerStack}
                         alt="Developer illustration"
                         className="relative z-10 w-full max-w-lg object-contain"
                         onError={(e) => {
@@ -59,22 +60,6 @@ const Hero = () => {
                         }}
                     />
 
-                    {/* Fallback visual */}
-                    <div className="relative z-10 flex h-80 w-full max-w-lg items-center justify-center rounded-3xl bg-linear-to-br from-orange-100 via-pink-100 to-purple-100">
-                        <div className="text-center">
-                            <div className="mx-auto mb-5 flex h-24 w-24 items-center justify-center rounded-3xl gradient-bg text-3xl font-black text-white shadow-xl">
-                                {"</>"}
-                            </div>
-
-                            <h3 className="text-2xl font-bold text-gray-800">
-                                Modern Tech Stack
-                            </h3>
-
-                            <p className="mt-2 text-gray-600">
-                                Build • Learn • Create
-                            </p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>

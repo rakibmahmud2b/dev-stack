@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logoText from "../../assets/logo-text.png";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -23,13 +24,11 @@ const Navbar = () => {
                         href="#home"
                         className="flex items-center gap-3"
                     >
-                        <div className="flex h-10 w-10 items-center justify-center rounded-xl gradient-bg text-xl font-bold text-white">
-                            DS
-                        </div>
-
-                        <span className="brand-gradient text-2xl font-extrabold">
-                            Dev Stack
-                        </span>
+                        <img
+                            src={logoText}
+                            alt="Dev Stack Logo"
+                            className="h-8 w-auto object-contain"
+                        />
                     </a>
 
                     <ul className="flex items-center gap-8">
@@ -72,9 +71,13 @@ const Navbar = () => {
 
                     <a
                         href="#home"
-                        className="brand-gradient text-xl font-extrabold"
+                        className="flex items-center"
                     >
-                        DS
+                        <img
+                            src={logoText}
+                            alt="Dev Stack Logo"
+                            className="h-7 w-auto object-contain"
+                        />
                     </a>
 
                     <div className="flex items-center gap-1">
