@@ -1,19 +1,19 @@
 # Dev Stack
 Dev Stack is a responsive web application that helps developers explore modern web development technologies and create their own personalized technology stack.
 # Features
- -Responsive design for desktop, tablet, and mobile
--Explore modern web development technologies
--Technology name, icon, category, description, difficulty, rating, and badge
--Add technologies to a personal stack
- -Prevent duplicate technologies from being added
- -Remove individual technologies
- -Remove all selected technologies
- -Dynamic selected technology count
- -Loading state while fetching technology data
--Error handling with toast notifications
--Responsive mobile navigation
--Smooth section navigation
-- Modern gradient-based UI
+A. Responsive design for desktop, tablet, and mobile
+B. Explore modern web development technologies
+C. Technology name, icon, category, description, difficulty, rating, and badge
+D. Add technologies to a personal stack
+E. Prevent duplicate technologies from being added
+F. Remove individual technologies
+G. Remove all selected technologies
+H. Dynamic selected technology count
+I. Loading state while fetching technology data
+J. Error handling with toast notifications
+K. Responsive mobile navigation
+L. Smooth section navigation
+M. Modern gradient-based UI
 
 ## Technologies Used
  React
