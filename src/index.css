@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+:root {
+	--brand-deep: #123b4a;
+	--brand-teal: #0f9d8a;
+	--brand-sky: #2b7de9;
+	--brand-coral: #f06b5f;
+	--brand-amber: #f2b84b;
+}
+
+.gradient-bg {
+	background: linear-gradient(135deg, var(--brand-teal), var(--brand-sky));
+}
+
+.brand-gradient {
+	background: linear-gradient(110deg, var(--brand-teal), var(--brand-sky));
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.gradient-bg:hover {
+	background: linear-gradient(135deg, var(--brand-coral), var(--brand-amber));
+}
